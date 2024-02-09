@@ -19,6 +19,11 @@ void display_subtration();
 void display_multiply();
 void display_divide();
 
+float get_sum();
+float get_divide();
+float get_multiply();
+
+
 };
 
 Calculator::Calculator(float n1,float n2)
