@@ -21,7 +21,16 @@ void display_divide();
 
 };
 
+Calculator::Calculator(float n1,float n2)
+{
+    num1=n1;
+    num1=n2;
+}
 
+void Calculator::display_sum()
+{
+    cout<<"Sum ="<<num1+num2<<endl;
+}
 
 
 
