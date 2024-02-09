@@ -38,6 +38,16 @@ void Calculator::display_sum()
 }
 
 
+void Calculator::display_multiply()()
+{
+    cout<<"Sum ="<<num1*num2<<endl;
+}
+void Calculator::display_subtration()()
+{
+    cout<<"Sum ="<<num1-num2<<endl;
+}
+
+
 
 int main()
 {
