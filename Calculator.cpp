@@ -35,18 +35,25 @@ Calculator::Calculator(float n1,float n2)
 void Calculator::display_sum()
 {
     cout<<"Sum ="<<num1+num2<<endl;
+    cout<<endl;
 }
 
 
 void Calculator::display_multiply()()
 {
     cout<<"Sum ="<<num1*num2<<endl;
+    cout<<endl;
 }
 void Calculator::display_subtration()()
 {
     cout<<"Sum ="<<num1-num2<<endl;
+    cout<<endl;
 }
-
+void Calculator::display_divide()()
+{
+    cout<<"Divide ="<<num1/num2<<endl;
+    cout<<endl;
+}
 
 
 int main()
