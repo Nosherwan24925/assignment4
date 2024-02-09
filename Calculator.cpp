@@ -17,8 +17,10 @@ Calculator(float n1,float n2);
 void display_sum();
 void display_subtration();
 void display_multiply();
+void display_divide();
 
 };
+
 
 
 
